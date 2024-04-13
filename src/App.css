@@ -1,0 +1,19 @@
+
+.on{
+    --scalePageBar:1;
+}
+
+.off{
+    --scalePageBar:0;
+}
+
+
+.app{
+    background-color: var(--bg-color);
+    width: 100vw;
+    min-height: 100vh;
+    padding-block: 1.8em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

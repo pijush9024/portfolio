@@ -1,0 +1,243 @@
+
+
+.project-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 6rem;
+}
+
+.project-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-bottom: -2rem;
+}
+
+.Project-btn{
+    background-color: transparent;
+    font-size: 3rem;
+    color: var(--btn-color);
+}
+
+.project-content{
+    background-color: #081b29;
+    width: 80%;
+    height: 20%;
+    max-width: 550px;
+    padding: 2rem 2rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+
+.project-main:before{
+    position: absolute;
+    content: "";
+    top: -0.2rem;
+    right: -0.2rem;
+    width: 110%;
+    height: 105%;
+    background-color: var(--bg-color);
+    animation: moveToRight 1s ease forwards;
+    animation-delay: 1.5s;
+    z-index: 10;
+}
+
+.pro-image{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--btn-color);
+}
+
+.pro-image img{
+    width: 95%;
+    height: 95%;
+    border-radius: 50%;
+    object-fit: cover;
+    filter: brightness(60%);
+}
+
+.project-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.project-title{
+    font-size: 1.2rem;
+    letter-spacing: 0.8px;
+    color: var(--title-color);
+    text-align: center;
+}
+
+.project-desc{
+    color: var(--btn-color);
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0.8rem;
+    text-align: center;
+}
+
+.project-desc p{
+    font-size: 16px;
+    line-height: 1.5rem;
+    letter-spacing: 0.5px;
+    color: var(--title-color);
+    opacity: 0.3;
+}
+
+.project-text .btn{
+    align-self: center;
+    padding: 0.8rem 2rem;
+    font-size: 16px;
+}
+
+.project-text .btn a{
+    color: inherit;
+}
+
+
+
+
+
+
+@media (max-width:1120px){
+
+    .project-main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        /* margin-top: 5rem; */
+        margin-bottom: -2rem;
+    }  
+
+    .project-content{
+        margin-top: 2rem;
+        
+    }
+    
+    .project-title{
+        font-size: 1.1rem;
+    }
+    
+    .project-desc{
+        font-size: 16px;
+    }
+
+}
+
+@media (max-width:950px){
+
+    .project-container{
+        margin-bottom: 4rem;
+        gap: 2rem;
+    }
+
+    .project-main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        margin-bottom: 0;
+    }  
+
+    .project-content{
+        width: 80%;
+        padding: 2rem 1.5rem;
+        margin-top: 3rem;
+        
+    }
+
+    .pro-image{
+        width: 130px;
+        height: 130px;
+    }
+
+}
+
+
+@media (max-width:605px){
+
+    .project-main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+        margin-bottom: -2rem;
+    }  
+
+    .project-content{
+        width: 100%;
+        padding: 2rem 0.5rem;
+        margin-top: 4rem;
+    }    
+
+}
+
+@media (max-width: 450px){
+    
+    .project-container{
+        width: 95%;
+    }
+    
+    .project-container .tag-text{
+        margin-top: 1rem;
+    }
+
+    .project-title{
+        font-size: 1rem;
+    }
+    
+    .project-desc{
+        font-size: 14px;
+    }
+
+    .Project-btn{
+        font-size: 2.5rem;
+    }
+
+    .project-text .btn{
+        align-self: center;
+        padding: 0.5rem 1.5rem;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 450px){
+
+    .project-main{
+        gap: 0.2rem;
+    }
+
+    .project-title{
+        font-size: 1rem;
+    }
+    
+    .project-desc{
+        font-size: 13px;
+    }
+
+    .Project-btn{
+        font-size: 2.3rem;
+    }
+
+    .pro-image{
+        width: 110px;
+        height: 110px;
+    }
+
+}

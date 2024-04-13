@@ -1,0 +1,58 @@
+
+
+.navbartop-container{
+    width: 90%;
+    overflow-x: hidden;
+    max-width: 1200px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-title, .mode{
+    position: relative;
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+    cursor: pointer;
+    padding: 2px 5px;
+}
+
+.navbar-title::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--bg-color);
+    animation: moveToRight 1s ease forwards;
+    animation-delay: .4s;
+}
+
+.navbar-title .link{
+    letter-spacing: 0.8px;
+    text-decoration: none;
+    color: var(--title-color);
+}
+
+.navbar-title .link span{
+    margin-right: 1.2px;
+    color: var(--btn-color);
+}
+
+.mode{
+    font-size: 1.5rem;
+}
+
+.mode::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--bg-color);
+    animation: moveToRight 1s ease forwards;
+    animation-delay: .4s;
+}
+

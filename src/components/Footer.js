@@ -14,7 +14,7 @@ const Footer = () => {
     <div className='foot relative'>
         <div className='foot-icon'>
             <a href='https://www.facebook.com/profile.php?id=100039475933404' target='_blank' ><BsFacebook/></a>
-            <a href='#'><RiMessengerLine/></a>
+            <a href='https://www.instagram.com/pijush9024/'><RiMessengerLine/></a>
             <a href='https://www.instagram.com/pijush9024/'><BsInstagram/></a>
         </div>
         <div>© pijush Mondal. All rights reserved</div>

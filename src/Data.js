@@ -9,7 +9,7 @@ const Data = [
     {
         image: powerbi,
         title: 'Power BI Dashboard',
-        desc: 'Over the past few weeks, I have been diving deep into Power BI, and I'm excited to present my first interactive dashboard! 📊',
+        desc: "Over the past few weeks, I have been diving deep into Power BI, and I'm excited to present my first interactive dashboard! 📊",
         link: '#'
     },
     {

@@ -16,7 +16,8 @@ const Education = () => {
               <div className='bar-dot'></div>
               <h3 className='bar-title'>Bachelor in Technology</h3>
               <p className='bar-text'>Gargi Memorial Institute of Technology</p>
-              <span><CiCalendar/> 2020 to present</span>
+              <p className='bar-text'>Electonics & Communication Engineering</p>
+              <span><CiCalendar/> 2020-2024</span>
           </div>
           <div className='bar relative'>
               <div className='bar-dot'></div>

@@ -107,7 +107,7 @@
     width: 350px;
     height: 350px;
     border-radius: 45%;
-    background-image: url(/src/assets/Profile1.jpg);
+    background-image: url(/src/assets/Profile.jpeg);
     filter:brightness(70%);
     box-shadow: inset 0 0 10px 2px var(--btn-color), 0 0 10px 0px #081b29;
     margin-top: -2rem;

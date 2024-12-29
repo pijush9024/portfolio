@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css'
 import {AiOutlineCloudDownload} from 'react-icons/ai'
-import resume from '../assets/resume.pdf'
+import resume from '../assets/resume1.pdf'
 
 const About = () => {
   return (

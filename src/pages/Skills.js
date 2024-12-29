@@ -11,12 +11,12 @@ const Skills = () => {
       </div>
       <div className='skills-main'>
         <div className='content relative'>
-          <div className='title'>Language & Database Skills</div>
+          <div className='title'>Language & Data Management Skills</div>
           <div className='skills-item'>
             <IoIosCheckmarkCircle className='skills-icon'/>
             <div className='item'>
               <p>Java</p>
-              <p>Intermediate</p>
+              <p>Basic</p>
             </div>
           </div>
           <div className='skills-item'>
@@ -33,13 +33,7 @@ const Skills = () => {
               <p>Intermediate</p>
             </div>
           </div>
-          <div className='skills-item'>
-            <IoIosCheckmarkCircle className='skills-icon'/>
-            <div className='item'>
-              <p>JavaScript</p>
-              <p>Intermediate</p>
-            </div>
-          </div>
+        
           {/* <div className='skills-item'>
             <IoIosCheckmarkCircle className='skills-icon'/>
             <div className='item'>
@@ -50,17 +44,41 @@ const Skills = () => {
           <div className='skills-item'>
             <IoIosCheckmarkCircle className='skills-icon'/>
             <div className='item'>
-              <p>MySQL</p>
+              <p>SQL</p>
               <p>Basic</p>
+            </div>
+          </div>
+
+          <div className='skills-item'>
+            <IoIosCheckmarkCircle className='skills-icon'/>
+            <div className='item'>
+              <p>Python</p>
+              <p>Basic</p>
+            </div>
+          </div>
+  
+          <div className='skills-item'>
+            <IoIosCheckmarkCircle className='skills-icon'/>
+            <div className='item'>
+              <p>EXCEL</p>
+              <p>Intermidiate</p>
+            </div>
+          </div>
+
+          <div className='skills-item'>
+            <IoIosCheckmarkCircle className='skills-icon'/>
+            <div className='item'>
+              <p>Google Sheets</p>
+              <p>Intermidiate</p>
             </div>
           </div>
         </div>
         <div className='content relative'>
-          <div className='title'>Development Skills</div>
+          <div className='title'>Business Intelligence Tools</div>
           <div className='skills-item'>
             <IoIosCheckmarkCircle className='skills-icon'/>
             <div className='item'>
-              <p>React.js</p>
+              <p>Power BI</p>
               <p>Intermediate</p>
             </div>
           </div>
@@ -81,14 +99,14 @@ const Skills = () => {
           <div className='skills-item'>
             <IoIosCheckmarkCircle className='skills-icon'/>
             <div className='item'>
-              <p>Tailwind</p>
+              <p>Looker Studio</p>
               <p>Intermediate</p>
             </div>
           </div>
           <div className='skills-item'>
             <IoIosCheckmarkCircle className='skills-icon'/>
             <div className='item'>
-              <p>Git</p>
+              <p>Tbleau</p>
               <p>Basic</p>
             </div>
           </div>

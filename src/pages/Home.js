@@ -13,7 +13,7 @@ const Home = () => {
             <span>ECE Student</span>
           </div>
           <p className='home-desc'>
-              I'm a final year student || Programmer || Front End developer from India.
+              I'm a MIS EXECUTIVE || POWER BI DEVELOPER || LOOKER STUDIO from India.
           </p>
           <div className='btn-container relative'>
             <Link to="/contact"><button className='btn'>Say Hello <span><TbSend/></span></button></Link>

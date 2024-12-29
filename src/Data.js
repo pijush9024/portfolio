@@ -10,7 +10,7 @@ const Data = [
         image: powerbi,
         title: 'Power BI Dashboard',
         desc: "Over the past few weeks, I have been diving deep into Power BI, and I'm excited to present my first interactive dashboard! 📊",
-        link: '#'
+        link: 'https://drive.google.com/file/d/1AHCQyFro8JKIwqinxvpO57VEdXTjxljQ/view'
     },
     {
         image: weatherapp,

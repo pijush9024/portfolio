@@ -14,7 +14,7 @@ const About = () => {
             
             <div className='about-text-container'>
                 <p className='about-desc relative'>
-                    Hello viewers, this is a brief introduction of mine. I am pursuing B.Tech from Gargi Memorial Institute of Technology. I am a front end  developer and used different technology in web development. I started my web development journey with HTML,CSS,JavaScript,ReactJS. Apart from Web technologies, i am doing programming in different languages like C, Java,  etc. I am now at learning phase and want to explore more in this field.
+                    Hello viewers, this is a brief introduction of mine. I am a B.Tech graduate in Electronics and Communication Engineering (ECE) with a strong passion for data analytics and business intelligence. Currently working as an MIS Executive, I specialize in transforming complex data into actionable insights and creating visually impactful dashboards.
                 </p>
                 <div className='btn-container relative'>
                 <button className='btn relative'><a href={resume} download="Resume">Download CV</a><span><AiOutlineCloudDownload /></span></button>

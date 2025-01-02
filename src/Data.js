@@ -2,7 +2,7 @@ import todo from './assets/todo.jpg';
 import placement from './assets/placement.jpg'
 import weatherapp from './assets/weather.jpg'
 import powerbi from './assets/powerbi.png'
-import lookerstudio from './assets/Lookerstudio.png'
+import lookerstudio from './assets/project.pdf'
 
 
 const Data = [
@@ -17,8 +17,8 @@ const Data = [
        {
         image: lookerstudio,
         title: 'Looker studio Dashboard',
-        desc: "Designed a comprehensive Monthly Run Rate dashboard in Looker Studio, showcasing dynamic data visualization and analytics to track company performance across months, enhancing decision-making efficiency.! 📊",
-        link: 'https://drive.google.com/file/d/1C_VolK_PL4uVp7Hp-uap6Q4U1DVwEW7k/view?usp=drive_link'
+        desc: "Designed a comprehensive dashboard in Looker Studio, showcasing dynamic data visualization and analytics to track company performance across months enhancing decision-making efficiency.! 📊",
+        link: 'https://drive.google.com/file/d/1-i7RxlGYr8OKjDgmroAlRq4U2OfVoGgn/view?usp=drive_link'
            
     },
 

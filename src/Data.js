@@ -3,6 +3,7 @@ import placement from './assets/placement.jpg'
 import weatherapp from './assets/weather.jpg'
 import powerbi from './assets/powerbi.png'
 import lookerstudio from './assets/lookerpng.png'
+import PendingTask from './assets/PendingTask.png'
 
 
 const Data = [
@@ -21,6 +22,14 @@ const Data = [
         link: 'https://drive.google.com/file/d/1QLa1d0N8cq7RfA0cfuOD6tE9fP1FVEVk/view?usp=drive_link'
            
     },
+
+
+    {
+        image: lookerstudio,
+        title: 'Looker studio Dashboard',
+        desc: "This Pending Task Dashboard provides a clear and structured view of ongoing tasks, categorized into chores, bugs, and features. It enables effective tracking of pending items across different projects or clients.",
+        link: 'https://drive.google.com/file/d/1vml_c0kl8XyjVvl_E4z03hxUXM3n0Q-7/view?usp=drive_link'
+    }
 
    
     {
